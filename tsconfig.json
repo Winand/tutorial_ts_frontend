@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "AMD" //🌐https://auth0.com/blog/javascript-module-systems-showdown
+    },
+    "files": [
+        // "./node_modules/@types/knockout/index.d.ts",
+        "./typescript/main.ts",
+        "./typescript/require-config.ts"
+    ]
+}
