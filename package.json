@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/knockout": "^3.4.71",
-    "knockout": "^3.5.1",
-    "requirejs": "^2.3.6"
+    "knockout": "^3.5.1"
   }
 }
