@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "knockout": "^3.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }

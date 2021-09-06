@@ -4,7 +4,9 @@
         // "moduleResolution": "Node", //default is Node for CommonJS https://www.typescriptlang.org/docs/handbook/module-resolution.html#module-resolution-strategies
         "sourceMap": true,
     },
-    "files": [
-        "./typescript/main.ts",
+    "exclude": [ // folders w/o .ts files
+        "node_modules",
+        "javascript",
+        "view",
     ]
 }
