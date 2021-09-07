@@ -3,6 +3,7 @@
         "module": "CommonJS", //🌐https://auth0.com/blog/javascript-module-systems-showdown
         // "moduleResolution": "Node", //default is Node for CommonJS https://www.typescriptlang.org/docs/handbook/module-resolution.html#module-resolution-strategies
         "sourceMap": true,
+        "target": "ES6"
     },
     "exclude": [ // folders w/o .ts files
         "node_modules",

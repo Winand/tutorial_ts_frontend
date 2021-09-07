@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@amcharts/amcharts5": "^5.0.0-beta.9",
+    "@amcharts/amcharts5-geodata": "^5.0.1",
     "knockout": "^3.5.1"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.8",
+    "esmify": "^2.1.1",
     "gulp": "^4.0.2"
   }
 }

@@ -4,3 +4,6 @@ package-lock.json
 *.js
 !gulpfile.js
 *.map
+.cache
+dist
+.devcontainer
