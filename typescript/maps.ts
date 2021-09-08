@@ -4,12 +4,14 @@ import worldLow from "@amcharts/amcharts5-geodata/worldLow";
 
 let root = am5.Root.new("chartdiv");
 let chart = root.container.children.push(
-  am5map.MapChart.new(root, {})
+  am5map.MapChart.new(root, {
+    projection: am5map.geoNaturalEarth1()
+  })
 );
 let polygonSeries = chart.series.push(
     am5map.MapPolygonSeries.new(root, {
          geoJSON: worldLow,
-        //  exclude: ["AQ"]
+         exclude: ["AQ"]
     })
 );
 
