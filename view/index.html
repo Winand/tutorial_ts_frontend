@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            .bg_map {
+                position: absolute;
+                width: 98%;
+                height: 95vh;
+            }
+            #word {
+                position: absolute;
+                width: 95%;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <ul data-bind="foreach: words">
-            <li><p data-bind="text: $data"></p></li>
-        </ul>
-        <div id="chartdiv" style="width: 100%; height: 500px;"></div>
+        <div id="chartdiv" class="bg_map"></div>
+        <input type="text" id="word" placeholder="Type a word">
+        <div id="output"></div>
         <script src="../javascript/bundle.js"></script>
     </body>
 </html>
